@@ -13,10 +13,28 @@ img {
   margin-left: auto;
   margin-right: auto;
 }
-
+.navbar-brand {
+  outline: none !important;
+   box-shadow: none;
+}
 .logo-text {
   font-family: 'Libre Barcode 128 Text', cursive;
+  color: white;
+  text-decoration: none;
 }
+.logo-text:hover {
+  color: rgb(255, 175, 175);
+
+}
+.logo-text:active {
+  color: rgb(255, 108, 108);
+
+}
+ a, a:hover, a:focus, a:active {
+      text-decoration: none;
+      color: inherit;
+ }
+
 .right {
   float: right;
   padding: 0 10px 0 0;
