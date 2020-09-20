@@ -19,6 +19,12 @@ img {
   padding: 0 10px 0 0;
   
 }
+.columns button{
+    margin-top: auto;
+  }
 .personal-data-box {
   margin-top: 5px;
 }
+.align-bottom {
+  align-self: flex-end; /* Push level-item and following elements to the bottom */
+} 
